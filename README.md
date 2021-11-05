@@ -7,7 +7,7 @@ WishList
 - Brownian Process >> dX_t = dB_t , where B_t - B_s ~ N (0,t-s) 
 - Brownian Process with drift and diffusion >> dX_t = u * dt + sigma * dB_t   [ u and sigma can be time and stock price dependent ] 
 - Geometric Brownian Process >> dX_t = u * X_t * dt + sigma * X_t * dB_t
-- Ornstein Uhlenbeck Process >> -k * X_t * dt + sigma * dB_t
+- Ornstein Uhlenbeck Process >> k * X_t * dt + sigma * dB_t
 
 2. Ito's Lemma (For stochastic calculus differential)
 - Stochastic Calculus
