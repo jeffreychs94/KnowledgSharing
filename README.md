@@ -7,7 +7,8 @@ WishList
 - Brownian Process >> dX_t = dB_t , where B_t - B_s ~ N (0,t-s) 
 - Brownian Process with drift and diffusion >> dX_t = u * dt + sigma * dB_t   [ u and sigma can be time and stock price dependent ] 
 - Geometric Brownian Process >> dX_t = u * X_t * dt + sigma * X_t * dB_t
-- Ornstein Uhlenbeck Process >> k * X_t * dt + sigma * dB_t
+- Ornstein Uhlenbeck Process >> k * X_t * dt + sigma * dB_t >> Vasicek Model >> Hull White is an extension of Vasicek with time dependent non constant parameters
+- Cox Ingersoll Rox (Interest Rate Process floored at 0) >> Foundation for Heston Process 
 
 2. Ito's Lemma (For stochastic calculus differential)
 - Stochastic Calculus
@@ -22,3 +23,6 @@ WishList
 
 5. Linear Algebra 
 - Cholesky Decomposition (Factorisation for matrices)
+
+6. ODE
+- Finite Difference Method to solve ODE 
